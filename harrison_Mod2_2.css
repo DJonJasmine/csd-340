@@ -1,0 +1,76 @@
+/*
+ * CSD 340 Assignment 2.2 CSS Document
+ * Name: D'Jon Harrison
+ * Date: December 12, 2025
+ */
+
+/* Base page settings */
+html, body {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Paragraph settings */
+p {
+    font-weight: 400;
+    line-height: 1.4em;
+}
+
+/* H1 styling */
+h1 {
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* H2 styling */
+h2 {
+    font-weight: 500;
+    text-align: left;
+    padding-top: 15px;
+}
+
+/* Center the address section in the middle area */
+.address-wrapper {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Address styling */
+address {
+    text-align: center;
+}
+
+/* Website link styles */
+.website-link {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #4F3674;
+    text-decoration: none;
+    display: inline-block; /* Needed so hover background shows */
+    padding: 4px 6px;
+}
+
+/* Visited state */
+.website-link:visited {
+    color: #6B4A8D;
+}
+
+/* Hover state */
+.website-link:hover {
+    text-decoration: underline;
+    background-color: #D6A800;
+}
+
+/* Italicize the span sentence class */
+.sentence {
+    font-style: italic;
+}
+
+/* Intro paragraph first-line indent */
+.intro {
+    text-indent: 2em;
+}
