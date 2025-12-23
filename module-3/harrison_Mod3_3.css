@@ -1,11 +1,14 @@
-/* CSD 340 Assignment 3.3 CSS
-   Name: D’Jon Harrison
-   Date: December 22, 2025 */
+/* 
+  Name: D’Jon Harrison
+  Assignment: 3.3 – Build a Web Page Exercise Part 3
+  Date: December 22, 2025
+*/
 
 h1 {
   text-align: center;
 }
 
+/* Side by side layout */
 #left-div,
 #right-div {
   width: 45%;
@@ -13,23 +16,30 @@ h1 {
   vertical-align: top;
 }
 
+/* Bottom navigation div */
 #bottom-div {
   width: 100%;
   margin-top: 60%;
-  float: right;
   margin-bottom: 20px;
 }
 
+/* Float the link itself to the right */
+#bottom-div a {
+  float: right;
+}
+
+/* Headings */
 h3 {
   font-weight: 500;
 }
 
+/* Lists */
 ol,
 ul {
   font-weight: 300;
 }
 
-/* Ordered list and its title */
+/* Ordered list + title styling */
 #left-div h3,
 #left-div ol {
   border: 1px solid red;
@@ -41,7 +51,7 @@ ul {
   list-style-position: inside;
 }
 
-/* Unordered list and its title */
+/* Unordered list + title styling */
 #right-div h3,
 #right-div ul {
   border: 1px dashed red;
@@ -54,6 +64,7 @@ ul {
   list-style-position: inside;
 }
 
+/* Link hover behavior */
 a:hover {
   text-decoration: underline;
 }
